@@ -1,0 +1,59 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+.spinner {
+  width: 2rem;
+  height: 2rem;
+  border: 0.25rem solid #56c7ff;
+  border-bottom: 0.25rem solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 9999;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button:disabled {
+  opacity: 0.2 !important;
+  cursor: not-allowed !important;
+}
+
+pre {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/* Required styling for carousel */
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 75%;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-inner {
+  display: flex;
+  width: 75%;
+  height: auto;
+  margin: 0 10px 20px 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+

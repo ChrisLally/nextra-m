@@ -1,0 +1,35 @@
+{
+  "github": {
+    "silent": true
+  },
+  "redirects": [
+    {
+      "source": "/chat",
+      "destination": "https://discord.gg/X9yFbcV2rF"
+    },
+    {
+      "source": "/how",
+      "destination": "https://million.dev/blog/virtual-dom"
+    },
+    {
+      "source": "/fork",
+      "destination": "https://github.com/aidenybai/hundred"
+    },
+    {
+      "source": "/readme",
+      "destination": "/foundation"
+    },
+    {
+      "source": "/docs/automatic",
+      "destination": "/docs"
+    },
+    {
+      "source": "/kitchen-sink",
+      "destination": "https://github.com/aidenybai/million/blob/main/packages/kitchen-sink/README.md"
+    },
+    {
+      "source": "/stickers",
+      "destination": "https://forms.gle/QQ9njK9Z2YjqWPJk9"
+    }
+  ]
+}
